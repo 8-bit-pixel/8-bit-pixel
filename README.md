@@ -2,7 +2,7 @@
 #include <iostream>
 #include <iso646.h>
 
-template<typename Tea> requires requires(Tea t) { 1 + t; } 
+template<class Tea> requires requires(Tea t) { 1 + t; } 
 [[noreturn]] const void * const curse (const Tea and biscuit) {
 https://www.github.com/8-bit-pixel
     const char * const $ = "H""e""l""l""o"" ""W""o""r""l""d"
