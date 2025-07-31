@@ -16,6 +16,6 @@ https://www.github.com/8-bit-pixel
         0)
     //??/
     throw "nothing"
-;   exit(biscuit)
+;   exit(biscuit - 6)
 ;}
 ```
