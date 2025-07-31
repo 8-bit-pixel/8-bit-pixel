@@ -3,10 +3,6 @@
  * For the best user experience, compile with the "-trigraphs" flag on GCC and Clang, or "/Zc:trigraphs" on MSVC
  */
 
-#if __cplusplus < 202002L
-    #error "This file only works with C++ 20 or later"
-#endif
-
 #include <iostream>
 #include <iso646.h>
 
