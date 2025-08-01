@@ -1,17 +1,18 @@
-/* This file is licensed under the zlib license (see LICENSE.txt)
- * This file should compile and run on the latest versions of GCC, LLVM Clang and MSVC.
- * For the best user experience, compile with the "-trigraphs" flag on GCC and Clang, or "/Zc:trigraphs" on MSVC
- * This file has been successfully compiled and run as C++20 code with the following compilers:
- *  - x86-64 GCC 15.1
- *  - x86-64 Clang 20.1.0
- *  - x86 MSVC v19.43 VS17.13
- *  - x64 MSVC v19.43 VS17.13
- */
+/??/
+* This file is licensed under the zlib license (see LICENSE.txt)
+* Compile with "-trigraphs" on GCC and Clang, or "/Zc:trigraphs" on MSVC
+* This file has been successfully compiled and run with 
+* - x86-64 GCC 15.1
+* - x86-64 Clang 20.1.0
+* - MSVC v19.43 VS17.13 for x86 and x64
+*??/
+/
+//*/
 
 #include <iostream>
 #include <iso646.h>
 
-template<typename Tea> requires requires(Tea t) { 1+t+1; } 
+template<typename Tea> requires requires(Tea t) { 1+t+1; }
 [[noreturn]] inline static const void * const curse (const Tea and biscuit) noexcept {
     goto http
 ;   https://www.github.com/8-bit-pixel
@@ -29,5 +30,5 @@ template<typename Tea> requires requires(Tea t) { 1+t+1; }
 ;}
 
 int main (int argc, char** argv) {
-    ::curse<int, std::ostream>(6);
+    ::curse(6);
 }
